@@ -1,0 +1,129 @@
+{
+  "platform": {
+    "android": {
+      "resourceElement": "resource-id",
+      "cabalitities": {
+        "platformName": "Android",
+        "appium:platformVersion": "14",
+        "appium:deviceName": "emulator-5554",
+        "appium:automationName": "uiautomator2",
+        "appium:appPackage": "app.bldg.explainer",
+        "appium:appActivity": ".MainActivity",
+        "appium:noReset": "false",
+        "appium:isHeadless": "true"
+      }
+    },
+    "ios": {
+      "resourceElement": "name",
+      "cabalitities": {
+        "appium:platformName": "IOS",
+        "appium:automationName": "XCUITest",
+        "appium:deviceName": "iPhone 14 Plus",
+        "appium:platformVersion": "16.4",
+        "appium:bundleId": "app.brochure",
+        "appium:noReset": false,
+        "appium: autoAcceptAlerts" : false,
+        "appium:settings[snapshotMaxDepth]": 62
+      }
+    }
+
+  },
+      "prod": {
+      "appPassword": "test123",
+      "appMailUpper": "Automatet4@yopmail.com",
+      "appMailLower": "automatet4@yopmail.com",
+      "iosAppMailUpper": "Automatet4@yopmail.com",
+      "iosAppMailLower": "automatet4@yopmail.com",
+      "invalidPassword": "ej34567",
+      "tempMailSite": "https://wp-temp-mail.com/",
+      "invalidMailFormat": "hdydgyg",
+      "invalidMailID": "yuddidviv@gmail.com",
+      "specialChar": "!@#$%^&*((*&",
+      "numbers": "1234567890",
+      "editProfile": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "firstNameUpdate": "JohnUpate",
+        "lastNameUpdate": "DoeUpdate",
+        "phoneUpdate": "863-767-4592",
+        "phone": "8637674592",
+        "addressUpdate": "1243 Ethels Lane",
+        "address": "Ethels Lane",
+        "cityUpdate": "hula",
+        "city": "Wauchula",
+        "state": "Florida",
+        "stateUpdate": "Flo",
+        "zip": "33879",
+        "zipUpdate": "21229"
+      },
+      "editLocation": {
+        "customerName": "AutomateLocation",
+        "addressLocation": "Automate Street",
+        "EST_EDT": "EST/EDT",
+        "CST_CDT": "CST/CDT",
+        "MST_MDT": "MST/MDT",
+        "PST_PDT": "PST/PDT",
+        "alaska": "Alaska",
+        "atlantic": "Atlantic",
+        "newfoundland": "Newfoundland"
+      },
+      "mangoDb": {
+        "url": "mongodb+srv://iqiprod:xg.bxhn4szfhg_b@cluster0.qvvf4.mongodb.net/iqintel?retryWrites=true&w=majority",
+        "MangoDbPath": "iqintel"
+      }
+    },
+      "qa": {
+      "url": "https://0iiszfh9hh.execute-api.us-east-1.amazonaws.com/qa",
+      "registerApi":"https://qa-api.digitalreps.ai/v2/auth/register",
+      "appPassword": "123123",
+      "appMailUpper": "Q1@yopmail.com",
+      "appMailLower": "q1@yopmail.com",
+      "appPhone":"9898989898",
+      "iosAppPhone":"8989898989",
+      "iosAppMailUpper": "Q3@yopmail.com",
+      "iosAppMailLower": "q3@yopmail.com",
+      "invalidPassword": "ej34567",
+      "tempMailSite": "https://wp-temp-mail.com/",
+      "invalidMailFormat": "hdydgyg",
+      "invalidMailID": "yuddidviv@gmail.com",
+      "specialChar": "!@#$%^&*((*&",
+      "numbers": "1234567890",
+      "subcription":{
+        "cardNum":"4242424242424242",
+        "cardMonth":"05/35",
+        "cardCVC":"656",
+        "cardName":"John Smith"
+      },
+      "editProfile": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "firstNameUpdate": "JohnUpate",
+        "lastNameUpdate": "DoeUpdate",
+        "phoneUpdate": "863-767-4592",
+        "phone": "8637674592",
+        "addressUpdate": "1243 Ethels Lane",
+        "address": "Ethels Lane",
+        "cityUpdate": "hula",
+        "city": "Wauchula",
+        "state": "Florida",
+        "stateUpdate": "Flo",
+        "zip": "33879",
+        "zipUpdate": "21229"
+      },
+      "editLocation": {
+        "customerName": "AutomateLocation",
+        "addressLocation": "Automate Street",
+        "EST_EDT": "EST/EDT",
+        "CST_CDT": "CST/CDT",
+        "MST_MDT": "MST/MDT",
+        "PST_PDT": "PST/PDT",
+        "alaska": "Alaska",
+        "atlantic": "Atlantic",
+        "newfoundland": "Newfoundland"
+      },
+      "mangoDb": {
+        "url": "mongodb+srv://iqicloudqa:YeXELWbrOB8vnirY@cluster1.c21rawu.mongodb.net/sales-intel?maxPoolSize=10",
+        "MangoDbPath": "walkthru1"
+      }
+    }
+}

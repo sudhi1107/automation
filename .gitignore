@@ -1,0 +1,9 @@
+mobile/node_modules/
+.vscode/
+mobile/allure-results/
+mobile/allure-report/
+mobile/wdio-appium.log
+web/allure-results/
+web/allure-report/
+web/wdio-appium.log
+web/node_modules/

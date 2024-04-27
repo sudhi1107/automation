@@ -1,0 +1,16 @@
+{
+      "prod": {
+      "appPassword": "test123",
+      "mangoDb": {
+        "url": "mongodb+srv://iqiprod:xg.bxhn4szfhg_b@cluster0.qvvf4.mongodb.net/iqintel?retryWrites=true&w=majority",
+        "MangoDbPath": "iqintel"
+      }
+    },
+      "qa": {
+      "appPassword": "123123",
+      "mangoDb": {
+        "url": "mongodb+srv://qaonqa:hhlbhuTT45Ko6ymP@cluster0.ub9nk.mongodb.net/iqicloudintel?w=majority",
+        "MangoDbPath": "iqicloudintel"
+      }
+    }
+}
